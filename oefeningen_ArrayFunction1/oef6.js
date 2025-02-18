@@ -19,9 +19,11 @@ let wagens = [
     }
 ];
 
-let merkBouwjaar = wagens.map(wagen => ({
-    merk: wagen.merk,
-    bouwjaar: wagen.bouwjaar,
-}))
+wagens.push({
+    kleur: "roze",
+    merk: "Porsche",
+    bouwjaar: 2025,
+    prijs: 150000
+})
 
-console.log(merkBouwjaar);
+console.log(wagens);

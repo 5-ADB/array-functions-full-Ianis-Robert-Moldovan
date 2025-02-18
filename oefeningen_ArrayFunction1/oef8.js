@@ -19,9 +19,6 @@ let wagens = [
     }
 ];
 
-let merkBouwjaar = wagens.map(wagen => ({
-    merk: wagen.merk,
-    bouwjaar: wagen.bouwjaar,
-}))
+let totaalSom = wagens.reduce((sum, wagen) => sum + wagens.prijs, 0)
 
-console.log(merkBouwjaar);
+console.log(totaalSom);         // werkt niet NOG niet

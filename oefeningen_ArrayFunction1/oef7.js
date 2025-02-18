@@ -19,9 +19,5 @@ let wagens = [
     }
 ];
 
-let merkBouwjaar = wagens.map(wagen => ({
-    merk: wagen.merk,
-    bouwjaar: wagen.bouwjaar,
-}))
+// kan het niet
 
-console.log(merkBouwjaar);
