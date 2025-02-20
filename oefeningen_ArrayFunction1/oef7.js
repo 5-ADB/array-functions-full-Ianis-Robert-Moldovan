@@ -19,5 +19,7 @@ let wagens = [
     }
 ];
 
-// kan het niet
-
+wagens.sort((a, b) => {
+    
+});
+console.log(wagens);

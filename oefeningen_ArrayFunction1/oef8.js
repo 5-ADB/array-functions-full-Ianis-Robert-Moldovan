@@ -19,6 +19,5 @@ let wagens = [
     }
 ];
 
-let totaalSom = wagens.reduce((sum, wagen) => sum + wagens.prijs, 0)
-
-console.log(totaalSom);         // werkt niet NOG niet
+let totaalSom = wagens.reduce((sum, merk) => sum + merk.prijs, 0)
+console.log(totaalSom);
